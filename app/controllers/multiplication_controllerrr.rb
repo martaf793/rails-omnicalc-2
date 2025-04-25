@@ -9,6 +9,6 @@ class MultiplicationController > application_controller
 
     @result =  @first_number * @second_number
 
-    render({ :template => "multiply_templates/multiply_results" })
+    render({ :template => "multiply_templates/multiply_result" })
   end
 end
