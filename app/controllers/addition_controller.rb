@@ -11,6 +11,6 @@ class AdditionController < ApplicationController
     @second_number = params.fetch("second_num").to_f
 
     @result = @first_number + @second_number
-    render({ :template => "addition_template/add_results" })
+    render({ :template => "addition_templates/add_results" })
   end
 end
